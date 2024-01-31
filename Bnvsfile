@@ -1,0 +1,6 @@
+FROM ubuntu
+WORKDIR /tmp
+RUN echo "hello bnvsfile" > /tmp/bnvsfile
+ENV myname hemanth
+COPY linuxfile /etc
+ADD devops.tar.gz /home
